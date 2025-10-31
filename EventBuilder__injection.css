@@ -1,6 +1,5 @@
 /* 
   With SF the best and sometimes only way to get these styles is to use !important because SF / React will create unique, scoped classes for items. 
-  
 */
 
 :root {
