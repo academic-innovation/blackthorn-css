@@ -14,16 +14,22 @@
   --mo-blue--link: #193a9f;
 }
 
+
+
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap"); */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
 
 /* Event Builder Class Specific targets */
-body,
-.content {
-  font-family: "Atkinson Hyperlegible", "DM Sans", sans-serif !important;
-  font-size: 17px !important;
-}
 
+
+ body,
+.content {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
 h1,
 h2,
 h3,
@@ -33,7 +39,7 @@ h6 .event-name,
 .title,
 [class*="speaker-profile-overlay"] .speaker-name {
   font-family: "DM Serif Display", Georgia, serif !important;
-  letter-spacing: 0px !important;
+  letter-spacing: -0.02em !important;
 }
 
 h1 {
@@ -98,6 +104,13 @@ h2 {
 .venue {
   font-weight: 700 !important;
   line-height: 1 !important;
+}
+
+
+/* Event Date */
+
+.event-date {
+  font-weight: 700;
 }
 
 .event-date-container {
@@ -256,8 +269,30 @@ Buttons
   fill: white !important;
 }
 
-.button-wrapper button {
+
+button {
   background-color: var(--mo-blue--link) !important;
+  color: #FFFFFF;
+  border: 6px double white !important;
+  margin: 0.25rem 0;
+  display: inline-block;
+  font-family: 'DM Serif Display', Georgia, serif !important;
+  font-size: 18px !important;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  
+  padding: 0.5rem 2rem !important;
+  border-radius: 40px;
+  vertical-align: middle;
+  text-align: center;
+  text-align-last: center;
+  -webkit-text-size-adjust: none;
+  box-shadow: none !important;
+}
+
+
+/* .button-wrapper button {
+ 
   color: white !important;
   background-color: #193a9f;
   color: white;
@@ -270,7 +305,7 @@ Buttons
   fill: white !important;
   letter-spacing: 0 !important;
   font-weight: 900 !important;
-  font-family: "DM Sans" !important;
+  font-family: "DM Sans" !important; */
 }
 
 .button-wrapper .mat-icon {
@@ -298,3 +333,37 @@ Buttons
 .event-where-when {
   align-items: flex-start !important;
 }
+
+/* Inputs */
+
+
+
+.mat-input-element {
+  border: 1px solid #cccccc !important;
+  caret-color: #00274c;
+}
+
+.mat-select {
+
+  border: 1px solid #cccccc !important;
+  border-radius: 9px;
+}
+
+.input-field .input-box {
+  box-shadow: none !important;
+}
+
+
+.mat-input-element:focus {
+  box-shadow:
+    0 0 8px 6px rgba(48, 92, 222, 0.2),
+    4px 4px 10px rgba(48, 92, 222, 0.2),
+    /* bottom-right */
+    -4px -4px 10px rgba(48, 92, 222, 0.2),
+    /* top-left */
+    4px -4px 10px rgba(48, 92, 222, 0.2),
+    /* top-right */
+    -4px 4px 10px rgba(48, 92, 222, 0.2);
+  /* bottom-left */
+}
+
