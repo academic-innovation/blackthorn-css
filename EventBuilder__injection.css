@@ -1,5 +1,6 @@
 /* 
   With SF the best and sometimes only way to get these styles is to use !important because SF / React will create unique, scoped classes for items. 
+  
 */
 
 :root {
@@ -14,22 +15,16 @@
   --mo-blue--link: #193a9f;
 }
 
-
-
 /* Google Fonts */
-/* @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap"); */
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
 
 /* Event Builder Class Specific targets */
-
-
- body,
+body,
 .content {
-  font-family: "DM Sans", Arial, Helvetica, sans-serif;
-  font-size: 17px;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif !important;
+  font-size: 17px !important;
 }
+
 h1,
 h2,
 h3,
@@ -107,11 +102,14 @@ h2 {
 }
 
 
-/* Event Date */
+/* Event Dates */
 
 .event-date {
   font-weight: 700;
 }
+
+
+
 
 .event-date-container {
   font-weight: 500 !important;
@@ -138,14 +136,13 @@ h2 {
 .speaker-details .speaker-image {
   border-radius: 0 !important;
   background: var(--um-gray--200) !important;
-  clip-path: path(
-    "M240 26.26C240 11.15 229.387 -0.92 215.759 0.22L21.463 14.80C9.367 15.72 0 26.18 0 39.05V214.67C0 231.89 13.927 244.09 28.390 239.68L222.889 187.92C233.636 185.04 240 174.56 240 162.37V26.26Z"
-  );
+  clip-path: path("M240 26.26C240 11.15 229.387 -0.92 215.759 0.22L21.463 14.80C9.367 15.72 0 26.18 0 39.05V214.67C0 231.89 13.927 244.09 28.390 239.68L222.889 187.92C233.636 185.04 240 174.56 240 162.37V26.26Z"
+    );
 }
+
 .speaker-details .speaker-image img.rounded {
-  clip-path: path(
-    "M240 26.26C240 11.15 229.387 -0.92 215.759 0.22L21.463 14.80C9.367 15.72 0 26.18 0 39.05V214.67C0 231.89 13.927 244.09 28.390 239.68L222.889 187.92C233.636 185.04 240 174.56 240 162.37V26.26Z"
-  );
+  clip-path: path("M240 26.26C240 11.15 229.387 -0.92 215.759 0.22L21.463 14.80C9.367 15.72 0 26.18 0 39.05V214.67C0 231.89 13.927 244.09 28.390 239.68L222.889 187.92C233.636 185.04 240 174.56 240 162.37V26.26Z"
+    );
   border-radius: 0 !important;
   /*until we can modify the templates themselves to not include the .rounded class, this it what we must do. */
 }
@@ -164,11 +161,9 @@ h2 {
   left: -50px;
   top: 5px;
   z-index: -1;
-  transform: scaleX(-0.7) scaleY(-0.7) translateX(60px) translateY(-60px)
-    skewY(6deg);
-  clip-path: path(
-    "M240 20.471 C240 8.66 229.387 -0.77 215.759 0.13L21.463 11.40C9.367 12.49 0 21.39 0 32.12V178.03C0 187.98 7.281 196.69 17.001 199.88L211.103 238.81C225.158 241.87 240 231.13 240 217.92V20.471Z"
-  );
+  transform: scaleX(-0.7) scaleY(-0.7) translateX(60px) translateY(-60px) skewY(6deg);
+  clip-path: path("M240 20.471 C240 8.66 229.387 -0.77 215.759 0.13L21.463 11.40C9.367 12.49 0 21.39 0 32.12V178.03C0 187.98 7.281 196.69 17.001 199.88L211.103 238.81C225.158 241.87 240 231.13 240 217.92V20.471Z"
+    );
 }
 
 /* VARIATION 2 
@@ -269,10 +264,8 @@ Buttons
   fill: white !important;
 }
 
-
-button {
+.button-wrapper button {
   background-color: var(--mo-blue--link) !important;
-  color: #FFFFFF;
   border: 6px double white !important;
   margin: 0.25rem 0;
   display: inline-block;
@@ -280,7 +273,8 @@ button {
   font-size: 18px !important;
   letter-spacing: 0.02em;
   text-decoration: none;
-  
+
+  color: #FFFFFF;
   padding: 0.5rem 2rem !important;
   border-radius: 40px;
   vertical-align: middle;
@@ -289,23 +283,6 @@ button {
   -webkit-text-size-adjust: none;
   box-shadow: none !important;
 }
-
-
-/* .button-wrapper button {
- 
-  color: white !important;
-  background-color: #193a9f;
-  color: white;
-  fill: white;
-  letter-spacing: 0;
-  font-weight: 900;
-  font-family: "DM Sans";
-
-  color: white !important;
-  fill: white !important;
-  letter-spacing: 0 !important;
-  font-weight: 900 !important;
-  font-family: "DM Sans" !important; */
 }
 
 .button-wrapper .mat-icon {
@@ -314,7 +291,7 @@ button {
 
 /* FAQ, Mat Expansion Panels */
 
-.mat-expansion-panel + .faq-category-title {
+.mat-expansion-panel+.faq-category-title {
   margin-top: 3rem;
 }
 
@@ -334,9 +311,7 @@ button {
   align-items: flex-start !important;
 }
 
-/* Inputs */
-
-
+/* Mat Inputs */
 
 .mat-input-element {
   border: 1px solid #cccccc !important;
@@ -353,7 +328,6 @@ button {
   box-shadow: none !important;
 }
 
-
 .mat-input-element:focus {
   box-shadow:
     0 0 8px 6px rgba(48, 92, 222, 0.2),
@@ -366,4 +340,3 @@ button {
     -4px 4px 10px rgba(48, 92, 222, 0.2);
   /* bottom-left */
 }
-
