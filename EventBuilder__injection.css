@@ -20,7 +20,9 @@
 
 /* Event Builder Class Specific targets */
 body,
-.content {
+.content,
+body *,
+label.content {
   font-family: 'DM Sans', Arial, Helvetica, sans-serif !important;
   font-size: 17px !important;
 }
