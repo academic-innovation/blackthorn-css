@@ -21,7 +21,7 @@
 /* Event Builder Class Specific targets */
 body,
 .content {
-  font-family: "DM Sans", Arial, Helvetica, sans-serif !important;
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif !important;
   font-size: 17px !important;
 }
 
@@ -33,7 +33,7 @@ h5,
 h6 .event-name,
 .title,
 [class*="speaker-profile-overlay"] .speaker-name {
-  font-family: "DM Serif Display", Georgia, serif !important;
+  font-family: 'DM Serif Display', Georgia, serif !important;
   letter-spacing: -0.02em !important;
 }
 
