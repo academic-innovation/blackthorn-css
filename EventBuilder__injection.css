@@ -97,7 +97,8 @@
 /* Event Builder Class Specific targets */
 body,
 .content
-label.content {
+label .content, 
+.bt-rich-text .content{
   font-family: 'DM Sans', Arial, Helvetica, sans-serif !important;
   font-size: 17px !important;
 }
