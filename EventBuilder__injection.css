@@ -357,7 +357,7 @@ Buttons
   letter-spacing: 0.02em;
   text-decoration: none;
 
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   padding: 0.5rem 2rem !important;
   border-radius: 40px;
   vertical-align: middle;
