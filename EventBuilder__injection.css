@@ -349,7 +349,8 @@ Buttons
 }
 
 button.button-wrapper,
-.expand-collapse-button {
+.expand-collapse-button,
+.direction-btn {
   background-color: var(--mo-blue--link) !important;
   
   margin: 0.25rem 0;
@@ -371,7 +372,8 @@ button.button-wrapper,
 }
 
 button.button-wrapper:hover, 
-.expand-collapse-button:hover {
+.expand-collapse-button:hover,
+.direction-btn:hover {
   border: 6px double white !important;
   transition: 250ms border;
 }
