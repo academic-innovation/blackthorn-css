@@ -367,7 +367,11 @@ button.button-wrapper,
   -webkit-text-size-adjust: none;
   box-shadow: none !important;
 }
+
+button.button-wrapper:hover {
+  border: 6px double white !important;
 }
+
 
 .button-wrapper .mat-icon {
   fill: white !important;
