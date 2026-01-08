@@ -349,7 +349,7 @@ Buttons
 
 .button-wrapper button {
   background-color: var(--mo-blue--link) !important;
-  border: 6px double white !important;
+  
   margin: 0.25rem 0;
   display: inline-block;
   font-family: 'DM Serif Display', Georgia, serif !important;
