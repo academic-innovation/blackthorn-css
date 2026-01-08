@@ -374,7 +374,7 @@ button.button-wrapper,
 button.button-wrapper:hover, 
 .expand-collapse-button:hover,
 .direction-btn:hover {
-  transform: scaleZ(102%);
+  transform: scale3D(105%);
   transition: 250ms transform;
 }
 
