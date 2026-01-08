@@ -347,7 +347,8 @@ Buttons
   fill: white !important;
 }
 
-.button-wrapper button {
+button.button-wrapper,
+.expand-collapse-button {
   background-color: var(--mo-blue--link) !important;
   
   margin: 0.25rem 0;
