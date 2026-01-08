@@ -202,14 +202,15 @@ header.navbar.top-nav {
 
 .speaker-image.custom-text,
 .speakers-wrapper .speaker-image.custom-text {
-  font-size: 8rem !important;
+  font-size: 6rem !important;
   font-weight: 900 !important;
   padding-bottom: 28px !important;
   max-height: 240px !important;
-  width: 270px !important;
+  width: 240xp !important;
   color: black !important;
-  line-height: 12rem !important;
+  line-height: 14rem !important;
   align-items: flex-start !important;
+  opacity: 0.2
 }
 
 .speaker-image {
