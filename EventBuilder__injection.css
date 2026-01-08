@@ -210,7 +210,7 @@ header.navbar.top-nav {
   color: black !important;
   line-height: 14rem !important;
   align-items: flex-start !important;
-  opacity: 0.2
+  
 }
 
 .speaker-image {
@@ -369,7 +369,8 @@ button.button-wrapper,
   box-shadow: none !important;
 }
 
-button.button-wrapper:hover {
+button.button-wrapper:hover, 
+.expand-collapse-button:hover {
   border: 6px double white !important;
 }
 
