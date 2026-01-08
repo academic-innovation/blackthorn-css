@@ -368,14 +368,14 @@ button.button-wrapper,
   text-align-last: center;
   -webkit-text-size-adjust: none;
   box-shadow: none !important;
-  transition: 250ms border;
+  transition: 250ms transform;
 }
 
 button.button-wrapper:hover, 
 .expand-collapse-button:hover,
 .direction-btn:hover {
-  border: 6px double white !important;
-  transition: 250ms border;
+  transform: scaleZ(102%);
+  transition: 250ms transform;
 }
 
 
