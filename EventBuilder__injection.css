@@ -395,7 +395,8 @@ button.button-wrapper:hover,
 
 /* FAQ, Mat Expansion Panels */
 
-.faq-answer .content {
+.faq-answer .content,
+.mat-expansion-panel-body {
   white-space: pre-line;
 }
 
