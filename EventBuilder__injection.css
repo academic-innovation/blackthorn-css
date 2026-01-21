@@ -395,6 +395,10 @@ button.button-wrapper:hover,
 
 /* FAQ, Mat Expansion Panels */
 
+.faq-answer .content {
+  white-space: pre-line;
+}
+
 .mat-expansion-panel+.faq-category-title {
   margin-top: 3rem;
 }
