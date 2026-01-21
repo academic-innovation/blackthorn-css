@@ -223,14 +223,13 @@ header.navbar.top-nav {
 .speaker-profile-overlay .details .image-section .speaker-image.custom-text {
   border-radius: 0 !important;
   background: var(--um-gray--200) !important;
-  clip-path: path("M240 26.26C240 11.15 229.387 -0.92 215.759 0.22L21.463 14.80C9.367 15.72 0 26.18 0 39.05V214.67C0 231.89 13.927 244.09 28.390 239.68L222.889 187.92C233.636 185.04 240 174.56 240 162.37V26.26Z"
-    );
+  clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z");
 }
 
  
 
 .speaker-details .speaker-image img.rounded {
-  clip-path: path("M240 26.26C240 11.15 229.387 -0.92 215.759 0.22L21.463 14.80C9.367 15.72 0 26.18 0 39.05V214.67C0 231.89 13.927 244.09 28.390 239.68L222.889 187.92C233.636 185.04 240 174.56 240 162.37V26.26Z"
+  clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z"
     );
   border-radius: 0 !important;
   /*until we can modify the templates themselves to not include the .rounded class, this it what we must do. */
