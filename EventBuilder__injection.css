@@ -260,10 +260,13 @@ h2 {
 /* App bar */
 
 .appbar h1 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 1rem;
+  font-family: "DM Sans", sans-serif !important;
+  font-size: 1rem !important;
 }
 
+.product-item__description {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif !important;
+}
 /* 
 
 Buttons  
