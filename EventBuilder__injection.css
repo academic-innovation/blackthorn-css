@@ -264,8 +264,17 @@ h2 {
   font-size: 1rem !important;
 }
 
+.product-item__venue,
 .product-item__description {
   font-family: "DM Sans", Arial, Helvetica, sans-serif !important;
+}
+
+.product-item__venue {
+  font-weight: bold;
+}
+
+.EventDiscover ul:nth-child(1n + 1) {
+  margin-top: 2rem;
 }
 /* 
 
