@@ -257,87 +257,12 @@ h2 {
   top: 80px
 }
 
-/* VARIATION 2 
-.speaker-details:nth-child(2) > .speaker-image:after {
-  content: " ";
-  background: var(--um-maize);
-  position: absolute;
-  width: 290px;
-  height: 280px;
-  left: 36px;
-  top: 0px;
-  z-index: -1;
-  transform: skewX(5deg) skewY(10deg) rotate(12deg) scaleX(1.1) scaleY(1.2);
-  clip-path: path(
-    "M240 26.26C240 11.15 229.387 -0.92 215.759 0.22L21.463 14.80C9.367 15.72 0 26.18 0 39.05V214.67C0 231.89 13.927 244.09 28.390 239.68L222.889 187.92C233.636 185.04 240 174.56 240 162.37V26.26Z"
-  
-  );
+/* App bar */
+
+.appbar h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
 }
-
-
-.speaker-details:nth-child(3) > .speaker-image:after {
-  content: " ";
-  background: var(--um-maize);
-  position: absolute;
-  width: 290px;
-  height: 280px;
-  left: 16px;
-  top: -30px;
-  z-index: -1;
-  transform: skewX(5deg) skewY(10deg) scaleX(1.3) rotateZ(-70deg);
-  clip-path: path(
-    "M240 68.16C240 56.56 231.243 46.71 220.920 43.82L54.458 1.016C40.300 -2.647 26.104 7.033 24.246 21.600L0.561 212.448C-1.348 228.734 11.401 241.106 26.834 239.925L220.179 223.06C232.291 221.731 240 210.968 240 198.731V68.16Z"
-  );
-}
-
-
-.speaker-details:nth-child(4) > .speaker-image:after {
-  content: " ";
-  background: var(--um-maize);
-  position: absolute;
-  width: 290px;
-  height: 280px;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  transform: skewX(5deg) skewY(10deg) rotate(5deg);
-  clip-path: path(
-    "M233.88 30.155C233.434 16.983 223.777 6.011 211.552 5.661L50.396 0.306C38.824 -0.110 28.575 8.781 26.546 21.170L0.646 180.777C-1.601 194.988 7.384 208.252 20.606 210.082L223.028 228.355C238.849 229.880 252.909 217.264 252.034 202.534L233.88 30.155Z"
-  );
-}
-
-
-.speaker-details:nth-child(5) > .speaker-image:after {
-  content: " ";
-  background: var(--um-maize);
-  position: absolute;
-  width: 290px;
-  height: 280px;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  transform: skewX(5deg) skewY(10deg) rotate(-4deg);
-  clip-path: path(
-    "M128 171.80C128 166.48 134.98 161.54 140.39 160.15L224.08 136.90C231.82 134.59 240 140.78 240 148.68V213.68C240 219.01 233.02 223.95 227.61 225.34L143.92 248.59C136.18 250.90 128 244.71 128 236.81V171.80Z"
-  );
-}
-
-
-.speaker-details:nth-child(6) > .speaker-image:after {
-  content: " ";
-  background: var(--um-maize);
-  position: absolute;
-  width: 290px;
-  height: 280px;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  transform: skewX(5deg) skewY(10deg) rotate(18deg);
-  clip-path: path(
-    "M0.426 161.455C0.426 174.110 8.521 185.480 20.073 188.776L207.020 240.333C223.910 245.863 240 232.177 240 214.037V77.984C240 65.329 231.905 53.960 220.353 50.664L33.406 0.107C16.515 -5.423 0.426 8.263 0.426 26.404V161.455Z"
-  );
-}
-*/
 
 /* 
 
