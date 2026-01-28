@@ -278,6 +278,19 @@ h2 {
 .EventDiscover ul:nth-child(1n + 1) {
   margin-top: 2rem;
 }
+
+@media (max-width: 320px) {
+  
+  .product-item {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
+  .product-item__eventDetails {
+    max-width: 100% !important;
+  }
+  ]
+}
 /* 
 
 Buttons  
