@@ -125,6 +125,17 @@ h2 {
   font-size: 2.125 rem !important;
 }
 
+[class*="speaker-profile-overlay"] .image-section {
+  position: relative;
+}
+
+[class*="speaker-profile-overlay"] .image-section:after {
+  left: -80px !important;
+  top: 150px !important;
+}
+
+
+
 /* Linkable things */
 
 
