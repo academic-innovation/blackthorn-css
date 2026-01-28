@@ -265,10 +265,12 @@ h2 {
 }
 
 .product-item__venue,
+.product-item__dateTime,
 .product-item__description {
   font-family: "DM Sans", Arial, Helvetica, sans-serif !important;
 }
 
+.product-item__dateTime,
 .product-item__venue {
   font-weight: bold;
 }
