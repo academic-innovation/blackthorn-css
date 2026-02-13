@@ -64,8 +64,8 @@ h2 {
 }
 
 [class*="speaker-profile-overlay"] .image-section:after {
-  left: -80px !important;
-  top: 150px !important;
+  left: -60px !important;
+  top: -90px !important;
 }
 
 
