@@ -173,9 +173,10 @@ h2 {
  
 
 .speaker-details .speaker-image img.rounded {
-  clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z"
+  /* clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z"
     );
-  border-radius: 0 !important;
+  border-radius: 0 !important; */
+  border: 1px dotted var(--um-gray--200);
   /*until we can modify the templates themselves to not include the .rounded class, this it what we must do. */
 }
 
