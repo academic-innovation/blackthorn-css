@@ -3,6 +3,9 @@
   
 */
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
+
 :root {
   --um-blue: #00274c;
   --um-maize: #ffcb05;
@@ -13,17 +16,14 @@
 
   /* Bright blue/800 */
   --mo-blue--link: #193a9f;
+  --primaryFontFace: 'DM Sans', Arial, Helvetica, sans-serif;
+  
 }
 
 /* Google Fonts */
 
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
-
-:root {
-  --primaryFontFace: 'DM Sans', Arial, Helvetica, sans-serif;
-}
 
 
 /* Event Builder Class Specific targets */
