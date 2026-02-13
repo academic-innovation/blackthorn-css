@@ -191,8 +191,8 @@ h2 {
   position: absolute;
   width: 290px;
   height: 280px;
-  left: -30px;
-  top: 5px;
+  /* left: -30px;
+  top: 5px; */
   z-index: -1;
   transform: scaleX(-0.7) scaleY(-0.7) translateX(60px) translateY(-60px) skewY(6deg);
   clip-path: path("M240 20.471 C240 8.66 229.387 -0.77 215.759 0.13L21.463 11.40C9.367 12.49 0 21.39 0 32.12V178.03C0 187.98 7.281 196.69 17.001 199.88L211.103 238.81C225.158 241.87 240 231.13 240 217.92V20.471Z"
@@ -358,4 +358,8 @@ button.button-wrapper:hover,
 
 .session-time {
   min-width: 8rem !important // makes the desktop column narrower.
+}
+
+.session-details-overlay .details .session-speakers .speaker-wrapper .speaker-details:after {
+  display: none;  
 }
