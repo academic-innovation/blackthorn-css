@@ -143,6 +143,9 @@ h2 {
   line-height: 1 !important;
 }
 
+.speakers-wrapper {
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr)) !important;
+}
 .speaker-image.custom-text,
 .speakers-wrapper .speaker-image.custom-text {
   font-size: 6rem !important;
