@@ -17,6 +17,8 @@
   /* Bright blue/800 */
   --mo-blue--link: #193a9f;
   --primaryFontFace: 'DM Sans', Arial, Helvetica, sans-serif;
+  --surfaceTextColor: var(--um-blue);
+  
   
 }
 
@@ -187,7 +189,7 @@ h2 {
   position: absolute;
   width: 290px;
   height: 280px;
-  left: -50px;
+  left: -30px;
   top: 5px;
   z-index: -1;
   transform: scaleX(-0.7) scaleY(-0.7) translateX(60px) translateY(-60px) skewY(6deg);
