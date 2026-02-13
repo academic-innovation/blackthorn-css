@@ -142,48 +142,69 @@ h2 {
   font-size: 1.5rem !important;
 }
 
-.speakers-wrapper {
+.speakers-wrapper .speakers {
   grid-template-columns: repeat(auto-fit,minmax(320px,1fr)) !important;
 }
 .speaker-image.custom-text,
 .speakers-wrapper .speaker-image.custom-text {
   font-size: 6rem !important;
   font-weight: 900 !important;
-  padding-bottom: 28px !important;
-  max-height: 240px !important;
-  width: 240px !important;
+
   color: black !important;
   line-height: 14rem !important;
   align-items: flex-start !important;
+  
   
 }
 
 .speaker-image {
   position: relative !important;
+  height: 250px !important;
+  width: 250px !important;
+  border-radius: 100%;
+  margin-bottom: 3rem !important;
+  border: 1px solid var(--um-gray--200);
+
 }
+
 
 .speaker-details .speaker-image,
 .speaker-details-overlay .speaker-details .speaker-image.custom-text,
 .speaker-profile-overlay .details .image-section .speaker-image.custom-text {
-  border-radius: 0 !important;
+  /* border-radius: 0 !important; */
+  
+
   background: var(--um-gray--200) !important;
-  clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z");
+  /* clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z"); */
 }
 
  
 
 .speaker-details .speaker-image img.rounded {
-  clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z"
+  /* clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z"
     );
-  border-radius: 0 !important;
+  border-radius: 0 !important; */
+  height: 250px;
+  width: 250px;
+  background: #ffffff;
+
+  
+  
+  
   /*until we can modify the templates themselves to not include the .rounded class, this it what we must do. */
 }
 
 /* VARIATION 1 */
 .speaker-details {
   position: relative;
+  
+  
 }
 
+.speakers-wrapper .speakers .speaker-details {
+  width: 20rem !important;
+  
+}
 .speaker-details:after,
 .speaker-profile-overlay .image-section:after  {
   content: " " !important;
