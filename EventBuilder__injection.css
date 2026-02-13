@@ -124,7 +124,7 @@ h2 {
 
 .venue {
   font-weight: 700 !important;
-  line-height: 1 !important;
+  font-size: 1.75rem !important;
 }
 
 
@@ -140,7 +140,6 @@ h2 {
 .event-date-container {
   font-weight: 500 !important;
   font-size: 1.5rem !important;
-  line-height: 1 !important;
 }
 
 .speakers-wrapper {
