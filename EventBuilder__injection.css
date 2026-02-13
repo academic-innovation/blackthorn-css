@@ -202,7 +202,7 @@ h2 {
 }
 
 .speakers-wrapper .speakers .speaker-details {
-  width: 20rem !important;
+  /* width: 20rem !important; */
   
 }
 .speaker-details:after,
@@ -371,14 +371,24 @@ button.button-wrapper:hover,
 
 // Session cards
 
-.session-card {
-  border: 1px solid var(--um-gray--200);
-}
-
 .session-time {
   min-width: 8rem !important // makes the desktop column narrower.
 }
 
 .session-details-overlay .details .session-speakers .speaker-wrapper .speaker-details:after {
   display: none;  
+}
+
+.session-card {
+  border: 1px solid var(--um-gray--200);
+
+}
+
+.session-info .name {
+  font-family: var(--primaryFontFace);
+  @media (max-width: 599px) {
+    color: var(--mo-blue--link);
+    text-decoration: underline;
+    
+  }
 }
