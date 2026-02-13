@@ -348,3 +348,10 @@ button.button-wrapper:hover,
     -4px 4px 10px rgba(48, 92, 222, 0.2);
   /* bottom-left */
 }
+
+
+// Session cards
+
+.session-card {
+  border: 1px solid var(--um-gray--200);
+}
