@@ -397,6 +397,6 @@ button.button-wrapper:hover,
   }
 }
 
-.session-info .name ~ .content {
+.session-info .name ~ .description {
   margin-top: 1rem !important;
 }
