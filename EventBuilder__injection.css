@@ -386,6 +386,7 @@ button.button-wrapper:hover,
 
 .session-info .name {
   font-family: var(--primaryFontFace);
+  font-size: 1.25rem;
   @media (max-width: 599px) {
     color: var(--mo-blue--link);
     text-decoration: underline;
