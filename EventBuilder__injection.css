@@ -381,7 +381,10 @@ button.button-wrapper:hover,
 
 .session-card {
   border: 1px solid var(--um-gray--200);
+}
 
+.session-card .extra {
+  padding-bottom: 1rem !important;
 }
 
 .session-info {
