@@ -388,7 +388,7 @@ button.button-wrapper:hover,
   font-family: var(--primaryFontFace);
   font-size: 1.15rem !important;
   line-height: 1.3 !important;
-  max-width: 32ch !important;
+  max-width: 80ch !important;
   
   @media (max-width: 599px) {
     color: var(--mo-blue--link);
