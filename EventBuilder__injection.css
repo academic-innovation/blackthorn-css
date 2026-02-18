@@ -121,14 +121,23 @@ h2 {
   transition: transform 300ms ease-in-out;
 }
 
+
 .speaker-bio {
   border-bottom-color: white !important;
 }
 
 .speaker-title {
   font-weight: 900 !important;
+  font-size: 0.875rem !important;
+  font-variant: full-width !important;
+}
+
+.speaker-company {
+  font-weight: 900 !important;
   letter-spacing: 0.1 !important;
   font-size: 1.25rem !important;
+  font-variant: all-small-caps;
+  margin-top: 0.5rem;
 }
 
 .venue {
@@ -187,7 +196,10 @@ h2 {
   /* clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z"); */
 }
 
- 
+ .speaker-details .speaker-image {
+   background: none !important;
+   border: none !important;
+ }
 
 .speaker-details .speaker-image img.rounded {
   /* clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z"
@@ -473,4 +485,63 @@ button.button-wrapper:hover,
 
 .session-info .name ~ .description {
   margin-top: 1rem !important;
+}
+
+/* Mobile Speaker Wrapper */
+
+.session-speakers {
+  gap: 3rem !important;
+}
+
+.speaker-wrapper {
+  @media(max-width: 600px) {
+    /* display: grid !important;
+    grid-template-columns: 150px 1fr;
+    align-items: center !important; */
+    
+    .speaker-details {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .speaker-image {
+      background: none !important;
+      border: none !important;
+      max-height: fit-content;
+      margin: 0 !important;
+      min-width: 150px !important;
+      max-width: 150px;
+    }
+    .speaker-company {
+      margin-bottom: 1.5rem;
+      margin-top: 0;
+      padding: 0 !important;
+    }
+    .ImgResponsive {
+      width: 128px !important;
+      height: 128px !important;
+    }
+  }
+  
+  @media(max-width: 360px) {
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   
+   .speaker-image {
+     text-align: center;
+   }
+   .speaker-image img {
+     /* margin-left: 2rem !important; */
+     margin-bottom: 1rem;
+   }
+   
+   .session-speakers {
+     gap: 3rem !important;
+   }
+   
+   .speaker-details {
+     text-align: center;
+     padding: 0 !important;
+   }
+  }
 }
