@@ -549,5 +549,5 @@ button.button-wrapper:hover,
 // Registration Button Hide
 
 .bt-session-registration-section {
-  display: none;
+  display: none !important;
 }
