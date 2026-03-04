@@ -360,6 +360,9 @@ button.button-wrapper:hover,
 .mat-content {
   align-items: center;
 }
+.mat-select-value  {
+  padding: 0 1rem !important;
+}
 
 /* Left align text rather than center */
 
