@@ -208,14 +208,22 @@ h2 {
   height: 250px;
   width: 250px;
   background: #ffffff;
-
-  
-  
-  
   /*until we can modify the templates themselves to not include the .rounded class, this it what we must do. */
 }
 
-/* VARIATION 1 */
+
+/* Navbar ==================================================================================================================================== */
+
+.navbar nav-itme .hide-bg {
+  // this is causing the text to be unreadable when the backgroun dis #00274c or similar; we have no control over the template so we have to override this
+  background: #fff;
+  position: sticky;
+  border-bottom: 4px solid white;
+  box-shadow: 0px 1px 20px rgba(0,0,0,0.1);
+}
+
+
+/* Speakers appearnce VARIATION 1 ==================================================================================================================================== */
 .speaker-details {
   position: relative;
   
