@@ -214,7 +214,7 @@ h2 {
 
 /* Navbar ==================================================================================================================================== */
 
-header.navbar nav-itme .hide-bg {
+header.navbar nav-item .hide-bg {
   // this is causing the text to be unreadable when the backgroun dis #00274c or similar; we have no control over the template so we have to override this
   background: #fff !important;
   position: sticky !important; // need to override the serialzed bg styles that are fixed.
