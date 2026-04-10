@@ -215,6 +215,8 @@ h2 {
 /* Navbar ==================================================================================================================================== */
 
 bt-master-event-ui-preview-header {
+  position: sticky !important; /* need to override the serialzed bg styles that are fixed. */
+  background: #fff !important;
 
 }
 
