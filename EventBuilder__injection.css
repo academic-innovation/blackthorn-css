@@ -1,6 +1,6 @@
-/* 
-  With SF the best and sometimes only way to get these styles is to use !important because SF / React will create unique, scoped classes for items. 
-  
+/*
+  With SF the best and sometimes only way to get these styles is to use !important because SF / React will create unique, scoped classes for items.
+
 */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
@@ -20,14 +20,14 @@
   --primaryFontFace: 'DM Sans', Arial, Helvetica, sans-serif;
   --surfaceTextColor: var(--um-blue);
   --letterSpaceFactor: 0;
-  
+
   --mo-focus-outline-width: 4px;
   --mo-focus-outline-color: var(--mo-cta);
   --mo-focus-outline-style: double;
-  
-  
-  
-  
+
+
+
+
 }
 
 /* Google Fonts */
@@ -103,7 +103,7 @@ h2 {
   background: var(--um-maize--50) !important;
 }
 
-/* [class*="speaker-profile-overlay"] .content p, 
+/* [class*="speaker-profile-overlay"] .content p,
 [class*="speaker-profile-overlay"] .details,
 [class*="speaker-profile-overlay"] .speaker-name,
 [class*="speaker-profile-overlay"] .bio-section,
@@ -171,8 +171,8 @@ h2 {
   color: black !important;
   line-height: 14rem !important;
   align-items: flex-start !important;
-  
-  
+
+
 }
 
 .speaker-image {
@@ -190,7 +190,7 @@ h2 {
 .speaker-details-overlay .speaker-details .speaker-image.custom-text,
 .speaker-profile-overlay .details .image-section .speaker-image.custom-text {
   /* border-radius: 0 !important; */
-  
+
 
   background: var(--um-gray--200) !important;
   /* clip-path: path("M240 15 C240 6.72 233.28 0 225 0H15C6.72 0 0 6.72 0 15V225C0 233.28 6.72 240 15 240H225C233.28 240 240 233.28 240 231.6V15Z"); */
@@ -213,13 +213,17 @@ h2 {
 
 
 /* Navbar ==================================================================================================================================== */
-  
-  
-header.navbar {
-  position: sticky !important; /* need to override the serialzed bg styles that are fixed. */
+
+bt-master-event-ui-preview-header {
+
 }
 
-header.navbar nav-item .hide-bg {
+header.navbar {
+  position: sticky !important; /* need to override the serialzed bg styles that are fixed. */
+  background: #fff !important;
+}
+
+header.navbar .nav-item .hide-bg {
   /*  this is causing the text to be unreadable when the backgroun dis #00274c or similar; we have no control over the template so we have to override this */
   box-shadow: 0px 1px 20px rgba(0,0,0,0.1);
 }
@@ -228,13 +232,13 @@ header.navbar nav-item .hide-bg {
 /* Speakers appearnce VARIATION 1 ==================================================================================================================================== */
 .speaker-details {
   position: relative;
-  
-  
+
+
 }
 
 .speakers-wrapper .speakers .speaker-details {
   /* width: 20rem !important; */
-  
+
 }
 .speaker-details:after,
 .speaker-profile-overlay .image-section:after  {
@@ -280,24 +284,24 @@ header.navbar nav-item .hide-bg {
   .product-item__imgContainer {
     width: 100% !important;
   }
-  
+
   .product-item {
     flex-direction: column !important;
     align-items: center !important;
   }
-  
+
   .product-item__eventDetails {
     max-width: 100% !important;
   }
 }
-/* 
+/*
 
-Buttons  
+Buttons
 
 */
 
 button, button:hover,
-.action-button, 
+.action-button,
 .action-button:hover {
   transition: 250ms all;
 }
@@ -324,7 +328,7 @@ button.button-wrapper,
 .expand-collapse-button,
 .direction-btn {
   background-color: var(--mo-cta) !important;
-  
+
   margin: 0.25rem 0;
   display: inline-block;
   font-family: 'DM Sans', Arial, Helvetica, sans-serif !important;
@@ -343,7 +347,7 @@ button.button-wrapper,
   transition: 250ms transform;
 }
 
-button.button-wrapper:hover, 
+button.button-wrapper:hover,
 .expand-collapse-button:hover,
 .direction-btn:hover {
   transform: scale(0.85);
@@ -387,7 +391,7 @@ button.button-wrapper:hover,
 
 .form-title {
   font-weight: 900 !important;
- 
+
 }
 
 .event-where-when {
@@ -398,7 +402,7 @@ button.button-wrapper:hover,
 
 .mat-form-field-outline {
   box-shadow: none !important;
-  width: 100%; 
+  width: 100%;
 }
 
 .mat-form-field-flex {
@@ -422,7 +426,7 @@ button.button-wrapper:hover,
 
 .mat-select-trigger {
   min-height: 3rem;
-  
+
 }
 
 .mat-select-arrow {
@@ -432,7 +436,7 @@ button.button-wrapper:hover,
 
 .input-field .input-box {
   /* box-shadow: none !important; */
-  
+
   &:focus, :focus-within {
     outline: var(--mo-focus-outline-width) var(--mo-focus-outline-style) var(--mo-focus-outline-color) !important;
   }
@@ -442,7 +446,7 @@ button.button-wrapper:hover,
 
 .input-field:not(.invalid) .input-box  {
   border: 1px solid var(--um-gray--600) !important;
-  
+
 }
 
 .mat-input-element:focus {
@@ -466,7 +470,7 @@ button.button-wrapper:hover,
 }
 
 .session-details-overlay .details .session-speakers .speaker-wrapper .speaker-details:after {
-  display: none;  
+  display: none;
 }
 
 .session-card {
@@ -486,12 +490,12 @@ button.button-wrapper:hover,
   font-size: 1.15rem !important;
   line-height: 1.3 !important;
   max-width: 80ch !important;
-  
-  
+
+
   @media (max-width: 599px) {
     color: var(--mo-cta);
     text-decoration: underline;
-    
+
   }
 }
 
@@ -510,7 +514,7 @@ button.button-wrapper:hover,
     /* display: grid !important;
     grid-template-columns: 150px 1fr;
     align-items: center !important; */
-    
+
     .speaker-details {
       display: flex;
       flex-direction: column-reverse;
@@ -533,12 +537,12 @@ button.button-wrapper:hover,
       height: 128px !important;
     }
   }
-  
+
   @media(max-width: 360px) {
    display: flex;
-   flex-direction: column; 
+   flex-direction: column;
    align-items: center;
-   
+
    .speaker-image {
      text-align: center;
    }
@@ -546,11 +550,11 @@ button.button-wrapper:hover,
      /* margin-left: 2rem !important; */
      margin-bottom: 1rem;
    }
-   
+
    .session-speakers {
      gap: 3rem !important;
    }
-   
+
    .speaker-details {
      text-align: center;
      padding: 0 !important;
@@ -560,7 +564,7 @@ button.button-wrapper:hover,
 
 /*  Registration Button Hide */
 
-.bt-session-registration-section, 
+.bt-session-registration-section,
 .session-registration-container  {
   display: none !important;
 }
