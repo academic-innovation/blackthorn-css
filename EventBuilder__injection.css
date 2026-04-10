@@ -33,13 +33,13 @@
 /* Google Fonts */
 
 
-// Fonts
+/* Fonts */
 
 
 /* Event Builder Class Specific targets */
 body,
-.content
-label .content, 
+.content,
+label .content,
 .bt-rich-text .content,
 label.custom-label .title {
   font-family: 'DM Sans', Arial, Helvetica, sans-serif !important;
@@ -65,7 +65,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.125 rem !important;
+  font-size: 2.125rem !important;
 }
 
 [class*="speaker-profile-overlay"] .image-section {
@@ -134,7 +134,7 @@ h2 {
 
 .speaker-company {
   font-weight: 900 !important;
-  letter-spacing: 0.1 !important;
+  letter-spacing: 0.1em !important;
   font-size: 1.25rem !important;
   font-variant: all-small-caps;
   margin-top: 0.5rem;
@@ -252,7 +252,7 @@ header.navbar nav-item .hide-bg {
 
 .speaker-profile-overlay .image-section:after {
   left: 120px;
-  top: 80px
+  top: 80px;
 }
 
 /* App bar */
@@ -290,7 +290,6 @@ header.navbar nav-item .hide-bg {
   .product-item__eventDetails {
     max-width: 100% !important;
   }
-  ]
 }
 /* 
 
@@ -461,10 +460,10 @@ button.button-wrapper:hover,
 }
 
 
-// Session cards
+/* Session cards */
 
 .session-time {
-  min-width: 8rem !important // makes the desktop column narrower.
+  min-width: 8rem !important; /* makes the desktop column narrower. */
 }
 
 .session-details-overlay .details .session-speakers .speaker-wrapper .speaker-details:after {
