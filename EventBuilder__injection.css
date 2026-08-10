@@ -571,3 +571,10 @@ button.button-wrapper:hover,
 .session-registration-container  {
   display: none !important;
 }
+
+
+.event-questions-form .action button {
+  content: "Custom Text Here" !important;  
+}
+
+
