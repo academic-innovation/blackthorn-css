@@ -573,4 +573,14 @@ button.button-wrapper:hover,
 }
 
 
+.event-questions-form .action button .mat-button-wrapper {
+  font-size: 0;
+}
+
+.event-questions-form .action button .mat-button-wrapper:after {
+  content: "Apply to Attend" !important;
+  font-size: 1rem;  
+}
+
+
 
