@@ -578,7 +578,7 @@ button.button-wrapper:hover,
 }
 
 .event-questions-form .action button .mat-button-wrapper:after {
-  content: "Custom Text Here" !important;
+  content: "Apply to Attend" !important;
   font-size: 1rem;  
 }
 
