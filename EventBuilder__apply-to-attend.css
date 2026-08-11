@@ -580,8 +580,8 @@ Join Waitlist button
 */
 
 .event-questions-form  .ng-star-inserted  .main .action button  .mdc-button__label {
-  color: #fe0000 !important;
   font-size: 0 !important;
+  line-height: 1 !important;
 }
 .event-questions-form  .ng-star-inserted  .main .action button  .mdc-button__label:after {
   content: "Apply to Attend" !important;
