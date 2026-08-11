@@ -580,12 +580,12 @@ Join Waitlist button
 */
 
 .event-questions-form .action button .mat-button-wrapper,
-.event-questions_form .action .mdc-button .mdc-button__label {
+.event-questions_form .main .action button .mdc-button__label {
   font-size: 0;
 }
 
 .event-questions-form .action button .mat-button-wrapper:after,
-.event-questions_form .action .mdc-button .mdc-button__label:after  {
+.event-questions_form .main .action button .mdc-button__label:after  {
   content: "Apply to Attend" !important;
   font-size: 1rem;  
 }
