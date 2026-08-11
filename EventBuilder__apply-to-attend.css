@@ -573,11 +573,19 @@ button.button-wrapper:hover,
 }
 
 
-.event-questions-form .action button .mat-button-wrapper {
+/* 
+
+Join Waitlist button 
+- modify the text from CSS by hiding the actual content and placing a pseudo element within.
+*/
+
+.event-questions-form .action button .mat-button-wrapper,
+.event-questions_form .mdc-button__label {
   font-size: 0;
 }
 
-.event-questions-form .action button .mat-button-wrapper:after {
+.event-questions-form .action button .mat-button-wrapper:after,
+.event-questions_form .mdc-button__label:after  {
   content: "Apply to Attend" !important;
   font-size: 1rem;  
 }
