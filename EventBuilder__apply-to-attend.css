@@ -603,10 +603,11 @@ Join Waitlist button
 h3.title {
   font-size: 0 !important;
   line-height: 1 !important;
+  text-align: center !important;
 }
 
 h3.title:after {
-  content; "Thank you for applying!" !important;
+  content: "Thank you for applying!" !important;
 }
 
 
