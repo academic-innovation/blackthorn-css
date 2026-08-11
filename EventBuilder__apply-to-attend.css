@@ -579,8 +579,8 @@ Join Waitlist button
 - modify the text from CSS by hiding the actual content and placing a pseudo element within.
 */
 
-.event-questions-form  .ng-star-inserted  .main .action button  {
-  background: #eeeeee !important;
+.event-questions-form  .ng-star-inserted  .main .action button  .mdc-button__label {
+  color: #fe0000 !important;
 }
 .event-questions-form .action button .mat-button-wrapper,
 .event-questions_form .ng-star-inserted .main .action button .mdc-button__label{
