@@ -606,8 +606,8 @@ h3.title {
   text-align: center !important;
 }
 
-h3.title:after {
-  content: "Thank you for applying!" !important;
+h3.title:before {
+  content: "Thank you for applying to attend! Check your email for updates on your application status." !important;
   font-size: 2rem;
 }
 
