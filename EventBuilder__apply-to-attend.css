@@ -611,4 +611,22 @@ h3.title:after {
   font-size: 2rem;
 }
 
+.container.product-item {
+  flex-direction: column-reverse !important;
+}
+
+.product-item__imgContainer {
+  width: 100% !important;
+  margin: 0 0 2rem 0 !important;
+  height: 100% !important;
+}
+
+@media (min-width: 37.5rem) {
+  .product-item__imgContainer {
+    width: 100% !important;
+    margin: 0 0 2rem 0 !important;
+    height: 100% !important;
+  }
+}
+
 
