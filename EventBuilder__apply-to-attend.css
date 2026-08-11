@@ -617,6 +617,7 @@ h3.title:after {
 
 .product-item__imgContainer {
   width: 100% !important;
+  max-width: 100%;
   margin: 0 0 2rem 0 !important;
   height: 100% !important;
 }
@@ -624,6 +625,7 @@ h3.title:after {
 @media (min-width: 37.5rem) {
   .product-item__imgContainer {
     width: 100% !important;
+    max-width: 100%;
     margin: 0 0 2rem 0 !important;
     height: 100% !important;
   }
