@@ -581,14 +581,21 @@ Join Waitlist button
 
 .event-questions-form  .ng-star-inserted  .main .action button  .mdc-button__label {
   color: #fe0000 !important;
+  font-size: 0 !important;
 }
+.event-questions-form  .ng-star-inserted  .main .action button  .mdc-button__label:after {
+  content: "Apply to Attend" !important;
+  font-size: 1rem;  
+}
+
+
+/* old version before they changed the DOM */
 .event-questions-form .action button .mat-button-wrapper,
-.event-questions_form .ng-star-inserted .main .action button .mdc-button__label{
+{
   font-size: 0 !important;
 }
 
-.event-questions-form .action button .mat-button-wrapper:after,
-.event-questions_form  .ng-star-inserted  .main .action button .mdc-button__label:after  {
+.event-questions-form .action button .mat-button-wrapper:after, {
   content: "Apply to Attend" !important;
   font-size: 1rem;  
 }
