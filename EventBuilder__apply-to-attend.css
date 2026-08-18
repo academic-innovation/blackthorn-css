@@ -604,7 +604,7 @@ h3.title {
 
 h3.title:before {
   content: "Thank you for applying to attend!" !important;
-  font-size: 2rem;
+  font-size: 2.01rem;
 }
 
 .container.product-item {
