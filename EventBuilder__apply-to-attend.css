@@ -607,7 +607,7 @@ h3.title,
 
 h3.title:before,
 .get-ticket-button:before
-.mdc-button__label span:before {
+.mdc-button__label spans.ng-star-inserted:before {
   content: "Thank you for applying to attend!" !important;
   font-size: 2.01rem;
 }
