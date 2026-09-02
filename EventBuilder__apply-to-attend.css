@@ -587,7 +587,12 @@ Join Waitlist button
 
 /* old version before they changed the DOM */
 /* 1. Hide original text and collapse original line height */
-
+.event-questions-form .action button .mat-button-wrapper,
+.get-ticket-button,
+.mdc-button__label {
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
 
 /* 2. Target the exact same elements with ::after */
 .event-questions-form .action button .mat-button-wrapper::after,
