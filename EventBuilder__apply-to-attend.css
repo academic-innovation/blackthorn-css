@@ -587,27 +587,30 @@ Join Waitlist button
 
 /* old version before they changed the DOM */
 .event-questions-form .action button .mat-button-wrapper,
+.get-ticket-button,
+.mdc-button__label span
 {
   font-size: 0 !important;
 }
 
-.event-questions-form .action button .mat-button-wrapper:after, {
+.event-questions-form .action button .mat-button-wrapper:after,
+.get-ticket-button:before
+.mdc-button__label spans.ng-star-inserted:before,
+ {
   content: "Apply to Attend" !important;
   font-size: 1rem;  
 }
 
 /* Waitlist Button Changes */
 h3.title,
-.get-ticket-button,
-.mdc-button__label span {
+ {
   font-size: 0 !important;
   line-height: 1 !important;
   text-align: center !important;
 }
 
 h3.title:before,
-.get-ticket-button:before
-.mdc-button__label spans.ng-star-inserted:before {
+{
   content: "Thank you for applying to attend!" !important;
   font-size: 2.01rem;
 }
