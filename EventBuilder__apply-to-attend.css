@@ -608,6 +608,10 @@ Join Waitlist button
   display: inline-block !important;
 }
 
+.get-ticket-button:after {
+  padding: 0.5rem 0.25rem;
+}
+
 /* Waitlist Button Changes */
 h3.title,
  {
