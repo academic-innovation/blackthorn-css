@@ -598,6 +598,8 @@ Join Waitlist button
  {
   content: "Apply to Attend" !important;
   font-size: 1rem;  
+  display: block !important;
+  width: 100%;
 }
 
 /* Waitlist Button Changes */
