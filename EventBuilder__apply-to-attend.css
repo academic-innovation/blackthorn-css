@@ -594,7 +594,7 @@ Join Waitlist button
 }
 
 .event-questions-form .action button .mat-button-wrapper:after,
-.mdc-button__label span,
+.mdc-button__label span:after,
  {
   content: "Apply to Attend" !important;
   font-size: 1rem;  
