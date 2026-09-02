@@ -411,7 +411,7 @@ button.button-wrapper:hover,
 
 .mat-input-element {
   border: 1px solid #cccccc !important;
-  caret-color: #00274c;
+  caret-color: var(--um-blue) !important;
 }
 
 .mat-select {
@@ -602,7 +602,9 @@ h3.title {
   text-align: center !important;
 }
 
-h3.title:before {
+h3.title:before,
+.get-ticket-button,
+.mdc-button__label span {
   content: "Thank you for applying to attend!" !important;
   font-size: 2.01rem;
 }
